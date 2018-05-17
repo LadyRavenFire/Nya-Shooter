@@ -519,6 +519,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maxHealth: 100
+  disableOnDeath:
+  - {fileID: 114675082772205084}
+  - {fileID: 114910749824128918}
 --- !u!114 &114406150835286162
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -571,7 +574,7 @@ MonoBehaviour:
   cam: {fileID: 20971274403170608}
   mask:
     serializedVersion: 2
-    m_Bits: 4294967295
+    m_Bits: 4294967039
 --- !u!114 &114936365544021052
 MonoBehaviour:
   m_ObjectHideFlags: 1

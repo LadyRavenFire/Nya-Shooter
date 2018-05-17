@@ -51,7 +51,7 @@ public class Player_Shoot : NetworkBehaviour
         Debug.Log(_playerID + " has been shot.");
        // Destroy(GameObject.Find(_ID)); HAHALOL
         PlayerManager _player = GameManager.GetPlayer(_playerID);
-        _player.TakeDamage(_damage);
+        _player.RpcTakeDamage(_damage);
     }
 
 }
